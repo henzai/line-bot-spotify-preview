@@ -6,3 +6,5 @@ firebase functions:config:set someservice.key="THE API KEY" someservice.id="THE 
 # 取得
 firebase functions:config:get
 ```
+
+https://open.spotify.com/track/6Dwtha2FtZFoMEBh5GR2sq
