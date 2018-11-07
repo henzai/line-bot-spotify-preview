@@ -7,7 +7,8 @@
     "shell": "firebase functions:shell",
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "logs": "firebase functions:log",
+    "test": "ava --verbose"
   },
   "dependencies": {
     "@line/bot-sdk": "^6.3.0",
@@ -17,9 +18,12 @@
     "spotify-web-api-node": "^4.0.0"
   },
   "devDependencies": {
+    "ava": "^0.25.0",
     "eslint": "^4.12.0",
     "eslint-plugin-promise": "^3.6.0"
   },
   "private": true,
-  "engines": {"node": "8"}
+  "engines": {
+    "node": "8"
+  }
 }
