@@ -1,8 +1,8 @@
 log:
 	firebase functions:log
 
-deploy:
-	firebase deploy --only functions:thirtySecondsURL
+functions:
+	firebase deploy --only functions
 
-deployall:
-	firebase deploy
+hosting:
+	firebase deploy --only hosting
