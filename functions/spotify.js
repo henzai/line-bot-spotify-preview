@@ -1,4 +1,3 @@
-const functions = require("firebase-functions");
 const SpotifyWebApi = require("spotify-web-api-node");
 
 exports.newSpotifyClient = async function(clientID, clientSecret) {
